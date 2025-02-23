@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "Clever.Onboarding.OrderPersister": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7280",
+      "launchBrowser": false
+    }
+  }
+}

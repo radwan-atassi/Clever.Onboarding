@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35431.28
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clever.Onboarding.Order.Data", "Clever.Onboarding.Data\Clever.Onboarding.Order.Data.csproj", "{DD705489-3425-475D-B0C6-06A7E5320AD5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clever.Onboarding.OrderPersister", "Clever.Onboarding.OrderPersister\Clever.Onboarding.OrderPersister.csproj", "{4B65A7C8-BCE3-46C2-BC7C-566A6DF1F34C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clever.Onboarding.OrderPoster", "Clever.Onboarding.OrderPoster\Clever.Onboarding.OrderPoster.csproj", "{1564EEE4-A8A8-495F-AF76-732E464FDFC6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clever.Onboarding.OrderEnricher", "Clever.Onboarding.OrderEnricher\Clever.Onboarding.OrderEnricher.csproj", "{1BD094F2-CBD8-44F5-A025-AAFDA819294E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clever.Onboarding.OrderProcessor", "Clever.Onboarding.OrderProcessor\Clever.Onboarding.OrderProcessor.csproj", "{02C80659-044D-4C69-9A4C-0AFF614D1E3A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clever.Onboarding.CampaignDataAPI", "Clever.Onboarding.CampaignDataAPI\Clever.Onboarding.CampaignDataAPI.csproj", "{BB077B0E-19D5-4374-A8E9-DA077253B2F5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD705489-3425-475D-B0C6-06A7E5320AD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD705489-3425-475D-B0C6-06A7E5320AD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD705489-3425-475D-B0C6-06A7E5320AD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD705489-3425-475D-B0C6-06A7E5320AD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B65A7C8-BCE3-46C2-BC7C-566A6DF1F34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B65A7C8-BCE3-46C2-BC7C-566A6DF1F34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B65A7C8-BCE3-46C2-BC7C-566A6DF1F34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B65A7C8-BCE3-46C2-BC7C-566A6DF1F34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1564EEE4-A8A8-495F-AF76-732E464FDFC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1564EEE4-A8A8-495F-AF76-732E464FDFC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1564EEE4-A8A8-495F-AF76-732E464FDFC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1564EEE4-A8A8-495F-AF76-732E464FDFC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BD094F2-CBD8-44F5-A025-AAFDA819294E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BD094F2-CBD8-44F5-A025-AAFDA819294E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BD094F2-CBD8-44F5-A025-AAFDA819294E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BD094F2-CBD8-44F5-A025-AAFDA819294E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02C80659-044D-4C69-9A4C-0AFF614D1E3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C80659-044D-4C69-9A4C-0AFF614D1E3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C80659-044D-4C69-9A4C-0AFF614D1E3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C80659-044D-4C69-9A4C-0AFF614D1E3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB077B0E-19D5-4374-A8E9-DA077253B2F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB077B0E-19D5-4374-A8E9-DA077253B2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB077B0E-19D5-4374-A8E9-DA077253B2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB077B0E-19D5-4374-A8E9-DA077253B2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F40A1DB1-A8FC-40DB-8103-4F93CC12DBC1}
+	EndGlobalSection
+EndGlobal
